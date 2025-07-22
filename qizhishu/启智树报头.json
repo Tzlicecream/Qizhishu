@@ -1,0 +1,77 @@
+{
+	"request": [],
+	"sendHeader": [
+		{
+			"enable": true,
+			"name": "cv",
+			"ruleType": "modifySendHeader",
+			"matchType": "prefix",
+			"pattern": "https://www.qizhishu.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "cv",
+				"value": "2.2"
+			}
+		},
+		{
+			"enable": true,
+			"name": "mt",
+			"ruleType": "modifySendHeader",
+			"matchType": "prefix",
+			"pattern": "https://www.qizhishu.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "mt",
+				"value": "1932A190E1E-B7B280106A818409-CE3DA4D6BF8FECA2"
+			}
+		},
+		{
+			"enable": true,
+			"name": "mac",
+			"ruleType": "modifySendHeader",
+			"matchType": "prefix",
+			"pattern": "https://www.qizhishu.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "mac",
+				"value": "E64929E56CEDF758B519ADC2594AD4CA"
+			}
+		},
+		{
+			"enable": true,
+			"name": "tp",
+			"ruleType": "modifySendHeader",
+			"matchType": "prefix",
+			"pattern": "https://www.qizhishu.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "tp",
+				"value": "qzs"
+			}
+		},
+		{
+			"enable": true,
+			"name": "bc",
+			"ruleType": "modifySendHeader",
+			"matchType": "prefix",
+			"pattern": "https://www.qizhishu.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "bc",
+				"value": ""
+			}
+		}
+	],
+	"receiveHeader": [],
+	"receiveBody": []
+}
