@@ -1,0 +1,10 @@
+{
+  "url": "https://www.qizhishu.com",
+  "name": "qizhishu",
+  "icon": "https://www.qizhishu.com/favicon.ico",
+  "width": 1200,
+  "height": 800,
+  "showMenu": true,
+  "userAgent": "",
+  "inject": ["./启智树报头.json"]
+}
